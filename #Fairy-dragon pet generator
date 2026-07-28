@@ -6,5 +6,5 @@ colour=['pink','orange','purple','golden','rainbow','blue','red']
 powers=['controls the weather','can teleport','Controls lightning','Turns invisible','Grants unlimited wishes','Can control fire and ice']
 print("Your Fairy companion name is:", random.choice(fairy_names))
 print("Your Dragon companion name is:", random.choice(dragon_name))
-print("Your Fairy companion colour is:", random.choice(colour))
+print("Your Dragon companion colour is:", random.choice(colour))
 print("Your Dragon companion power is:", random.choice(powers))
