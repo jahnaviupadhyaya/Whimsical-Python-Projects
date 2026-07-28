@@ -1,0 +1,12 @@
+#Fortune Cookie Generator
+import random
+fortune=[
+    "Something amazing is coming your way",
+    "You will meet someone important today",
+    "Your next random, decision will change something",
+    "A surprise is waiting for you",
+    "You are going to be lucky today",
+    "You are going to meet love of your life today",
+]
+print("Your fortune:")
+print(random.choice(fortune))
