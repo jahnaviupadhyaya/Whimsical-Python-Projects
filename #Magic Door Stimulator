@@ -1,0 +1,13 @@
+#Magic Door Stimulator
+import random
+doors={
+    "red": "You entered Dragon's Kitchen",
+    "blue": "You are under water",
+    'purple':'You entered fairy kingdom',
+    'green': 'You became forest creature'
+}
+print("THERE ARE FOUR MAGIC DOORS")
+print("Red | Blue | Purple | Green")
+choice= input("Choose a door: ").lower()
+print("\n You open the door...")
+print(doors.get(choice, "That door doesn't exist!"))
