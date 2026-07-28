@@ -1,0 +1,12 @@
+#Tiny Life Stimulator
+import random
+jobs=['Influencer','Youtube Creator','Digital Market Associate','Doctor','Engineer','Chef']
+pets=['cats','dog','Dragon','Frog','Mouse']
+homes=['Mountains cottage','Beaches cottage','Island house','City house',"Treehouse"]
+talents=['Talk to plants','Predicts rain','Fly','Never gets tired','Feels emotions deeply']
+twists=['You became famous','Your pet becomes famous','You get 1millon dollars','You move to another country','You find a secret treasure']
+print(" YOUR LIFE SIMULATOR \n")
+print("Your job is:",random.choice(jobs))
+print("Your pet is:",random.choice(pets))
+print("Your home is:",random.choice(homes))
+print("Your talent is:",random.choice(talents))
