@@ -1,5 +1,5 @@
 # Whimsical-Python-Projects
-Fun game type of python projects
+Fun imaginary games from python random library projects
 These projects uses random library in python and creates a fun imaginary games....
 #1: Fortune Cookie Generator
 #2: Potion Maker
