@@ -1,0 +1,17 @@
+#Potion Maker
+import random
+ingredients=['rose petals','moon dust','dragon scales','fairy tears','magic beans','pixie dust']
+effects=[
+    'Makes you invisible',
+    'Lets you fly',
+    'Makes you talk to animals',
+    'Gives you unlimited luck',
+    'Turns your dreams into reality',
+    'Gives you ability of teleportation',
+    'Gives you ability to read minds'
+]
+print("Welcome to the magic lab")
+ingredient=random.choice(ingredients)
+effect=random.choice(effects)
+print("\nYou added:",ingredient)
+print("Your potion's effect:",effect)
